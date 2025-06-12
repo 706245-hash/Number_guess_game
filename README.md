@@ -1,7 +1,8 @@
 # 🔢 Number Guessing Game
 
 A colorful, terminal-based number guessing game with multiple difficulty levels and smart hints!
-[![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
+
+[![Python Version](https://img.shields.io/badge/Python-3.6%2B-blue)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ![Gameplay Demo](demo.gif) *Replace with actual screenshot/gif*
