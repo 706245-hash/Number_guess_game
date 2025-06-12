@@ -1,11 +1,11 @@
 import random
 from colorama import init, Fore, Back, Style
 
-# Initialize colorama (automatically resets colors after each print)
+# Initialize colorama (automatically resets colours after each print)
 init(autoreset=True)
 
 def play_game():
-    # Difficulty presets with color-coded names
+    # Difficulty presets with colour-coded names
     DIFFICULTY = {
         '1': {'name': f'{Fore.GREEN}Beginner{Style.RESET_ALL}', 'range': (1, 50), 'attempts': 10},
         '2': {'name': f'{Fore.YELLOW}Intermediate{Style.RESET_ALL}', 'range': (1, 100), 'attempts': 7},
@@ -13,7 +13,7 @@ def play_game():
         '4': {'name': f'{Fore.CYAN}Custom{Style.RESET_ALL}', 'custom': True}
     }
 
-    # Colorful title
+    # Colourful title
     print(f"\n{Back.BLUE}{Fore.WHITE}=== NUMBER GUESSING GAME ==={Style.RESET_ALL}")
     print(f"{Fore.MAGENTA}Select Difficulty:{Style.RESET_ALL}")
     
@@ -68,7 +68,7 @@ def play_game():
             print(f"\n{Back.GREEN}{Fore.WHITE}=== YOU WIN! ==={Style.RESET_ALL} 🎉")
             attempts_used = max_attempts - remaining + 1
             
-            # Colorful win messages
+            # Colourful win messages
             if attempts_used == 1:
                 print(f"{Fore.MAGENTA}First try! {Fore.YELLOW}Legendary! {Fore.CYAN}🤯")
             elif attempts_used <= 3:
@@ -80,7 +80,7 @@ def play_game():
             won = True
             break
         else:
-            # Warm/Cold hints with color
+            # Warm/Cold hints with colour
             current_diff = abs(guess - random_int)
             if current_diff < previous_diff:
                 print(f"{Fore.RED}Getting warmer! {Fore.YELLOW}🔥")
@@ -88,7 +88,7 @@ def play_game():
                 print(f"{Fore.BLUE}Getting colder! {Fore.CYAN}❄️")
             previous_diff = current_diff
 
-            # High/Low feedback with color
+            # High/Low feedback with colour
             if guess > random_int:
                 print(f"{Fore.RED}Too high! {Fore.YELLOW}⬇️")
             else:
