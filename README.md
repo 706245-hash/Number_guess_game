@@ -55,6 +55,7 @@ print(f"{Fore.MAGENTA}New colorful message!")
 
 ## 📜 Game Logic
 
+```mermaid
 graph TD
     A[Start] --> B{Choose Difficulty}
     B -->|1-3| C[Set Preset Range]
@@ -68,6 +69,7 @@ graph TD
     I --> J{Attempts Left?}
     J -->|Yes| F
     J -->|No| K[Game Over]
+```
 
 ## 🤝 Contributing
 Personal recommendations welcome for:
