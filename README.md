@@ -5,7 +5,7 @@ A colorful, terminal-based number guessing game with multiple difficulty levels 
 [![Python Version](https://img.shields.io/badge/Python-3.6%2B-blue)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-![Gameplay Demo](demo.gif) *Replace with actual screenshot/gif*
+![Gameplay Demo](demo.gif) *screenshot/gif*
 
 ## ✨ Features
 - **Multi-colored UI** (using `colorama`)
