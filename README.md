@@ -25,12 +25,14 @@ A colorful, terminal-based number guessing game with multiple difficulty levels 
 
 ## 🛠️ Installation
 ```bash
-# 1. Install Python 3.6+ if needed
-# 2. Install colorama:
-pip install colorama
+# Clone repository
+git clone https://github.com/706245-hash/Number_guess_game.git
 
-# 3. Download the game:
-curl -O https://raw.githubusercontent.com/yourusername/number-guesser/main/guess_the_number.py
+# Install dependencies
+pip install -r requirements.txt
+
+# Run application
+python guess_the_number.py
 ```
 ## 🎮 How to Play
 ```bash
